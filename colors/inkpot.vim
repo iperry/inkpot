@@ -43,7 +43,7 @@ fun! <SID>X(a)
 endfun
 
 if ! exists("g:inkpot_black_background")
-    let g:inkpot_black_background = 0
+    let g:inkpot_black_background = 1
 endif
 
 if has("gui_running")
