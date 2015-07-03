@@ -168,12 +168,12 @@ else
     exec "hi MBEVisibleNormal            ctermfg=" . <SID>X(85) . " ctermbg=" . <SID>X(82)
     exec "hi MBEVisibleChanged           ctermfg=" . <SID>X(87) . " ctermbg=" . <SID>X(82)
 
-    exec "hi DiffText       cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(34)
-    exec "hi DiffChange     cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(17)
-    exec "hi DiffDelete     cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(32)
-    exec "hi DiffAdd        cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . <SID>X(20)
+    exec "hi DiffText       cterm=NONE   ctermfg=" . 0 . " ctermbg=" . 228
+    exec "hi DiffChange     cterm=NONE   ctermfg=" . 0 . " ctermbg=" . 45
+    exec "hi DiffDelete     cterm=NONE   ctermfg=" . 0 . " ctermbg=" . 225
+    exec "hi DiffAdd        cterm=NONE   ctermfg=" . 0 . " ctermbg=" . 122
 
-    exec "hi Folded         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=" . 53
+    exec "hi Folded         cterm=NONE   ctermfg=" . 241 . " ctermbg=NONE"
     exec "hi FoldColumn     cterm=NONE   ctermfg=" . <SID>X(39) . " ctermbg=" . <SID>X(80)
 
     exec "hi Directory      cterm=NONE   ctermfg=" . <SID>X(28) . " ctermbg=" . "NONE"
