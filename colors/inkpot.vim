@@ -46,7 +46,7 @@ if ! exists("g:inkpot_black_background")
     let g:inkpot_black_background = 1
 endif
 
-if has("gui_running")
+if $NVIM_TUI_ENABLE_TRUE_COLOR && has("nvim")
     if ! g:inkpot_black_background
         hi Normal         gui=NONE   guifg=#cfbfad   guibg=#1e1e27
     else
