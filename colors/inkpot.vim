@@ -147,6 +147,8 @@ else
         exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=none"
     endif
 
+    hi  CursorLine   cterm=NONE ctermbg=32 ctermfg=white
+
     exec "hi IncSearch      cterm=BOLD   ctermfg=" . <SID>X(80) . " ctermbg=" . <SID>X(73)
     exec "hi Search         cterm=NONE   ctermfg=" . <SID>X(80) . " ctermbg=" . <SID>X(52)
     exec "hi ErrorMsg       cterm=BOLD   ctermfg=" . <SID>X(16) . " ctermbg=" . <SID>X(48)
