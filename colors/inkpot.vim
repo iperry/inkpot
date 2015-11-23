@@ -53,7 +53,7 @@ if $NVIM_TUI_ENABLE_TRUE_COLOR && has("nvim")
         hi Normal         gui=NONE   guifg=#cfbfad   guibg=#000000
     endif
 
-    hi CursorLine         guibg=#2e2e37
+    hi CursorLine         guibg=#2e2e2e
 
     hi IncSearch      gui=BOLD   guifg=#303030   guibg=#cd8b60
     hi Search         gui=NONE   guifg=#303030   guibg=#ad7b57
@@ -147,7 +147,7 @@ else
         exec "hi Normal         cterm=NONE   ctermfg=" . <SID>X(79) . " ctermbg=none"
     endif
 
-    exec "hi CursorLine     cterm=NONE   ctermbg=17 ctermfg=NONE"
+    hi CursorLine     cterm=NONE   ctermbg=235 ctermfg=NONE
 
     exec "hi IncSearch      cterm=BOLD   ctermfg=" . <SID>X(80) . " ctermbg=" . <SID>X(73)
     exec "hi Search         cterm=NONE   ctermfg=" . <SID>X(80) . " ctermbg=" . <SID>X(52)
